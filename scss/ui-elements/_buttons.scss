@@ -1,0 +1,9 @@
+.btn--brand {
+	background: $c-brand;
+	color: #fff !important;
+	transition: all .2s ease-in-out;
+
+	&:hover {
+		background: $c-brand--d
+	}
+}

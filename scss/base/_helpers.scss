@@ -1,0 +1,23 @@
+/* helpers */
+
+
+.tdn { text-decoration: none !important; }
+
+.dib-vam { display: inline-block; vertical-align: middle; }
+
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+
+
+.flex {
+	display: flex;
+}
+
+
+
+.bg-brand { background-color: $c-brand; }
+.c-brand { color: $c-brand; }  
+
+
+.htdu:hover { text-decoration: underline !important; }

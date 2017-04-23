@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Input groups</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body>
+	<section class="container">
+
+
+
+
+
+
+
+
+		<h2>Basic example</h2>
+
+
+		<div class="input-group">
+		  <span class="input-group-addon" id="basic-addon1">@</span>
+		  <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+		</div>
+
+		<br><br>
+
+		<div class="input-group">
+		  <input type="text" class="form-control" placeholder="Recipient's username" aria-describedby="basic-addon2">
+		  <span class="input-group-addon" id="basic-addon2">@example.com</span>
+		</div>
+
+		<br><br>
+
+		<div class="input-group">
+		  <span class="input-group-addon">$</span>
+		  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+		  <span class="input-group-addon">.00</span>
+		</div>
+
+		<br><br>
+
+		<label for="basic-url">Your vanity URL</label>
+		<div class="input-group">
+		  <span class="input-group-addon" id="basic-addon3">https://example.com/users/</span>
+		  <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+		</div>
+
+
+
+
+
+
+
+
+
+		<br>
+		<br>
+		<br>
+		<hr>
+		<br>
+		<br>
+		<br>
+
+
+
+
+
+
+
+
+		<h2>Checkboxes and radio addons</h2>
+
+
+		<div class="row">
+		  <div class="col-lg-6">
+		    <div class="input-group">
+		      <span class="input-group-addon">
+		        <input type="checkbox" aria-label="...">
+		      </span>
+		      <input type="text" class="form-control" aria-label="...">
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-lg-6 -->
+		  <div class="col-lg-6">
+		    <div class="input-group">
+		      <span class="input-group-addon">
+		        <input type="radio" aria-label="...">
+		      </span>
+		      <input type="text" class="form-control" aria-label="...">
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-lg-6 -->
+		</div><!-- /.row -->
+
+
+
+
+
+
+
+
+
+		<br>
+		<br>
+		<br>
+		<hr>
+		<br>
+		<br>
+		<br>
+
+
+
+
+
+
+
+
+		<h2>Button addons</h2>
+
+
+
+		<div class="row">
+		  <div class="col-lg-6">
+		    <div class="input-group">
+		      <span class="input-group-btn">
+		        <button class="btn btn-default" type="button">Go!</button>
+		      </span>
+		      <input type="text" class="form-control" placeholder="Search for...">
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-lg-6 -->
+		  <div class="col-lg-6">
+		    <div class="input-group">
+		      <input type="text" class="form-control" placeholder="Search for...">
+		      <span class="input-group-btn">
+		        <button class="btn btn-default" type="button">Go!</button>
+		      </span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-lg-6 -->
+		</div><!-- /.row -->
+
+
+
+
+
+
+
+
+		<br>
+		<br>
+		<br>
+		<hr>
+		<br>
+		<br>
+		<br>
+
+
+
+
+
+
+
+		<h2>Buttons with dropdowns</h2>
+
+
+		<div class="row">
+		  <div class="col-lg-6">
+		    <div class="input-group">
+		      <div class="input-group-btn">
+		        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action <span class="caret"></span></button>
+		        <ul class="dropdown-menu">
+		          <li><a href="#">Action</a></li>
+		          <li><a href="#">Another action</a></li>
+		          <li><a href="#">Something else here</a></li>
+		          <li role="separator" class="divider"></li>
+		          <li><a href="#">Separated link</a></li>
+		        </ul>
+		      </div><!-- /btn-group -->
+		      <input type="text" class="form-control" aria-label="...">
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-lg-6 -->
+		  <div class="col-lg-6">
+		    <div class="input-group">
+		      <input type="text" class="form-control" aria-label="...">
+		      <div class="input-group-btn">
+		        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action <span class="caret"></span></button>
+		        <ul class="dropdown-menu dropdown-menu-right">
+		          <li><a href="#">Action</a></li>
+		          <li><a href="#">Another action</a></li>
+		          <li><a href="#">Something else here</a></li>
+		          <li role="separator" class="divider"></li>
+		          <li><a href="#">Separated link</a></li>
+		        </ul>
+		      </div><!-- /btn-group -->
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-lg-6 -->
+		</div><!-- /.row -->
+
+
+
+
+
+
+
+		<br>
+		<br>
+		<br>
+		<hr>
+		<br>
+		<br>
+		<br>
+
+
+
+
+
+
+		<h2>Segmented buttons</h2>
+
+
+
+		<form class="bs-example bs-example-form" data-example-id="input-group-segmented-buttons" _lpchecked="1">
+	    <div class="row">
+        <div class="col-lg-6">
+          <div class="input-group">
+            <div class="input-group-btn">
+                <button type="button" class="btn btn-default">Action</button>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="caret"></span> <span class="sr-only">Toggle Dropdown</span> </button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+             </div>
+            <input class="form-control" aria-label="Text input with segmented button dropdown"> </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="input-group">
+            <input class="form-control" aria-label="Text input with segmented button dropdown">
+            <div class="input-group-btn">
+              <button type="button" class="btn btn-default">Action</button>
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="caret"></span> <span class="sr-only">Toggle Dropdown</span> </button>
+              <ul class="dropdown-menu dropdown-menu-right">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+	    </div>
+		</form>
+
+
+
+
+
+		<br>
+		<br>
+		<br>
+		<hr>
+		<br>
+		<br>
+		<br>
+
+
+
+
+
+
+
+		<h2>Multiple buttons</h2>
+		
+
+
+		<form class="bs-example bs-example-form" data-example-id="input-group-multiple-buttons" _lpchecked="1">
+	    <div class="row">
+        <div class="col-lg-6">
+          <div class="input-group">
+            <div class="input-group-btn">
+              <button type="button" class="btn btn-default" aria-label="Bold"><span class="glyphicon glyphicon-bold"></span></button>
+              <button type="button" class="btn btn-default" aria-label="Italic"><span class="glyphicon glyphicon-italic"></span></button>
+            </div>
+            <input class="form-control" aria-label="Text input with multiple buttons"> 
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="input-group">
+            <input class="form-control" aria-label="Text input with multiple buttons">
+            <div class="input-group-btn">
+              <button type="button" class="btn btn-default" aria-label="Help"><span class="glyphicon glyphicon-question-sign"></span></button>
+              <button type="button" class="btn btn-default">Action</button>
+            </div>
+          </div>
+        </div>
+	    </div>
+		</form>
+
+
+
+
+
+
+		<br>
+		<br>
+		<br>
+		<hr>
+		<br>
+		<br>
+		<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</section><!-- container -->
+	<script src="../js/vendor/jquery-1.11.2.min.js"></script>
+	<script src="../js/vendor/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+//color variables
+$c-brand  : brown;
+$c-brand--d  : darken($c-brand, 2);
+
+$c-txt    : #333;
+$c-gray   : #666;
+
+
+
+//fonts fariables
+
+$font-def : 'Lato', Arial, sans-serif;
+
+
+
+
+
+
+
+//extends
+
+%clearfix {
+	
+	&:before, &:after {
+		content: " "; display: table;
+	}
+
+	&:after {
+		clear: both;
+	}
+}
+
+
+%flex {
+	display: flex;
+}
+
+
+%con-abs {
+	content: "";
+	position: absolute;
+}
+
+
+%bgncc {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}

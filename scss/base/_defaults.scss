@@ -1,0 +1,77 @@
+/* base */
+::selection {
+  background-color: $c-gray;
+  color: #fff;
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+*, *:hover, *:focus {
+  outline: none !important;
+}
+
+html,
+body,
+button {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+body {
+  font: 400 16px/1.42857143 $font-def;
+  text-size-adjust: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+
+a {
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+
+.container {
+  padding: 0 10px;
+}
+
+
+ol, ul {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  border: 0;
+  width: auto;
+  max-width: 100%;
+}
+
+
+
+
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}

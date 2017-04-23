@@ -1,0 +1,173 @@
+/* header */
+
+.header {
+	background: $c-brand;
+}
+
+
+
+
+.navbar {
+	border: 0;
+	border-radius: 0;
+	margin-bottom: 0;
+	min-height: 100px;
+}
+
+
+.navbar-nav {
+	background-color: #fff;
+}
+
+
+.navbar-brand {
+	height: auto;
+	width: 210px;
+}
+
+
+.navbar-nav > li > a {
+	color: #000;
+	font-size: 1em;
+	text-decoration: none;
+	transition: all .2s ease-in-out;
+}
+
+
+.nav .open > a, 
+.nav .open > a:focus, 
+.nav .open > a:hover,
+.navbar-nav > li.active > a,
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+  background-color: transparent !important;
+  color: $c-brand;
+}
+
+
+
+
+
+
+.dropdown-menu {
+	background-color: $c-brand;
+	box-shadow: 0;
+
+	&:before {
+		@extend %con-abs;
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 10px 7.5px 0 7.5px;
+		border-color: $c-brand transparent transparent transparent;
+		bottom: 100%;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	li a {
+		font-size: 12px;
+		color: #fff !important;
+		padding: 10px 10px;
+		background-color: $c-brand !important;
+
+		&:hover {
+			background-color: $c-brand--d !important;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+	.navbar-nav > li {
+		margin-right: 0 !important;
+		text-align: center;
+		padding: 6px 0;
+	}
+
+	.navbar-nav {
+		padding: 0 15px;
+		margin-bottom: 10px;
+	}
+
+	.dropdown-menu {
+		background-color: $c-brand--d !important;
+		margin-top: 10px !important;
+		position: relative !important;
+		border-radius: 4px !important;
+
+		li a {
+			text-align: center;
+			background: $c-brand--d !important;
+			padding: 7px 5px 5px !important;
+
+			&:hover {
+				background: darken($c-brand--d, 4) !important;
+			}
+		}
+	}
+
+
+	.navbar-toggle {
+		border-radius: 0;
+		padding: 0;
+		margin-top: 14px;
+
+		.icon-bar {
+			background-color: $c-brand;
+			height: 4px;
+			border-radius: 0;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+
+
+
+
+	.dropdown-menu {
+		left: 0 !important;
+		right: auto;
+		background-color: $c-brand;
+		transform: translateY(3px);
+		border-radius: 0;
+		padding-bottom: 0;
+
+		&:before {
+			display: none !important;
+		}
+
+		li a {
+			text-align: left;
+			padding: 10px 10px;
+			background-color: $c-brand !important;
+
+			&:hover {
+				background-color: $c-brand--d !important;
+			}
+		}
+	}
+}
