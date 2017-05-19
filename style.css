@@ -2022,7 +2022,9 @@
 *::after {
   box-sizing: border-box; }
 
-*, *:hover, *:focus {
+*,
+*:hover,
+*:focus {
   outline: none !important; }
 
 html,
@@ -2051,64 +2053,58 @@ body {
           flex-grow: 1;
   overflow: hidden; }
 
-a {
-  text-decoration: none; }
-
+a,
 a:hover,
 a:focus {
   text-decoration: none; }
 
-.container {
-  padding: 0 10px; }
-
-ol, ul {
+ol,
+ul {
   list-style: none; }
-
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-  padding: 0; }
-
-img {
-  border: 0;
-  width: auto;
-  max-width: 100%; }
 
 @media (min-width: 1200px) {
   .container {
     width: 1200px; } }
 
 /* helpers */
-.tdn {
-  text-decoration: none !important; }
-
-.dib-vam {
-  display: inline-block;
-  vertical-align: middle; }
-
-.clearfix:before, .clearfix:after {
-  content: " ";
-  display: table; }
-
-.clearfix:after {
-  clear: both; }
-
 .flex {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
 
-.bg-brand {
-  background-color: brown; }
+.mb0 {
+  margin-bottom: 0; }
 
-.c-brand {
-  color: brown; }
+.mb10 {
+  margin-bottom: 10px; }
+
+.mb15 {
+  margin-bottom: 15px; }
+
+.mb20 {
+  margin-bottom: 20px; }
+
+.mb25 {
+  margin-bottom: 25px; }
+
+.mb30 {
+  margin-bottom: 30px; }
+
+.tdu {
+  text-decoration: underline; }
 
 .htdu:hover {
   text-decoration: underline !important; }
 
+.bg-brand {
+  background-color: crimson; }
+
+.c-brand {
+  color: crimson; }
+
 /* header */
 .header {
-  background: brown; }
+  background: crimson; }
 
 .navbar {
   border: 0;
@@ -2136,17 +2132,17 @@ img {
 .navbar-nav > li > a:hover,
 .navbar-nav > li > a:focus {
   background-color: transparent !important;
-  color: brown; }
+  color: crimson; }
 
 .dropdown-menu {
-  background-color: brown;
+  background-color: crimson;
   box-shadow: 0; }
   .dropdown-menu:before {
     width: 0;
     height: 0;
     border-style: solid;
     border-width: 10px 7.5px 0 7.5px;
-    border-color: brown transparent transparent transparent;
+    border-color: crimson transparent transparent transparent;
     bottom: 100%;
     left: 50%;
     -webkit-transform: translateX(-50%);
@@ -2156,9 +2152,9 @@ img {
     font-size: 12px;
     color: #fff !important;
     padding: 10px 10px;
-    background-color: brown !important; }
+    background-color: crimson !important; }
     .dropdown-menu li a:hover {
-      background-color: #9d2828 !important; }
+      background-color: #d31339 !important; }
 
 @media (max-width: 767px) {
   .navbar-nav > li {
@@ -2169,22 +2165,22 @@ img {
     padding: 0 15px;
     margin-bottom: 10px; }
   .dropdown-menu {
-    background-color: #9d2828 !important;
+    background-color: #d31339 !important;
     margin-top: 10px !important;
     position: relative !important;
     border-radius: 4px !important; }
     .dropdown-menu li a {
       text-align: center;
-      background: #9d2828 !important;
+      background: #d31339 !important;
       padding: 7px 5px 5px !important; }
       .dropdown-menu li a:hover {
-        background: #8d2424 !important; }
+        background: #c01134 !important; }
   .navbar-toggle {
     border-radius: 0;
     padding: 0;
     margin-top: 14px; }
     .navbar-toggle .icon-bar {
-      background-color: brown;
+      background-color: crimson;
       height: 4px;
       border-radius: 0; } }
 
@@ -2192,7 +2188,7 @@ img {
   .dropdown-menu {
     left: 0 !important;
     right: auto;
-    background-color: brown;
+    background-color: crimson;
     -webkit-transform: translateY(3px);
         -ms-transform: translateY(3px);
             transform: translateY(3px);
@@ -2203,22 +2199,22 @@ img {
     .dropdown-menu li a {
       text-align: left;
       padding: 10px 10px;
-      background-color: brown !important; }
+      background-color: crimson !important; }
       .dropdown-menu li a:hover {
-        background-color: #9d2828 !important; } }
+        background-color: #d31339 !important; } }
 
 /* footer */
 .footer {
-  background: brown;
+  background: crimson;
   color: #fff;
   font-size: .8em; }
 
 .btn--brand {
-  background: brown;
+  background: crimson;
   color: #fff !important;
   transition: all .2s ease-in-out; }
   .btn--brand:hover {
-    background: #9d2828; }
+    background: #d31339; }
 
 .modal-dialog {
   margin: 0 auto;

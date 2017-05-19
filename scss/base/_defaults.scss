@@ -11,7 +11,10 @@
   box-sizing: border-box;
 }
 
-*, *:hover, *:focus {
+
+*, 
+*:hover, 
+*:focus {
   outline: none !important;
 }
 
@@ -37,39 +40,20 @@ body {
 }
 
 
-a {
-  text-decoration: none;
-}
+a,
 a:hover,
 a:focus {
   text-decoration: none;
 }
 
 
-.container {
-  padding: 0 10px;
-}
-
-
-ol, ul {
+ol, 
+ul {
   list-style: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-  padding: 0;
-}
 
-img {
-  border: 0;
-  width: auto;
-  max-width: 100%;
-}
-
-
-
-
-
+// define max container width here
 @media (min-width: 1200px) {
   .container {
     width: 1200px;

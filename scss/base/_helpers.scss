@@ -1,23 +1,30 @@
 /* helpers */
-
-
-.tdn { text-decoration: none !important; }
-
-.dib-vam { display: inline-block; vertical-align: middle; }
-
-.clearfix:before, .clearfix:after { content: " "; display: table; }
-.clearfix:after { clear: both; }
+.flex { display: flex; }
 
 
 
-.flex {
-	display: flex;
-}
+// margins 
+.mb0 { margin-bottom: 0; }
+.mb10 { margin-bottom: 10px; }
+.mb15 { margin-bottom: 15px; }
+.mb20 { margin-bottom: 20px; }
+.mb25 { margin-bottom: 25px; }
+.mb30 { margin-bottom: 30px; }
 
 
 
-.bg-brand { background-color: $c-brand; }
-.c-brand { color: $c-brand; }  
 
-
+// link underline decoration helpers
+.tdu { text-decoration: underline; }
 .htdu:hover { text-decoration: underline !important; }
+
+
+
+
+// bg-color helper classes 
+.bg-brand { background-color: $c-brand; }
+
+
+
+// txt-color helper classes 
+.c-brand  { color: $c-brand; }  

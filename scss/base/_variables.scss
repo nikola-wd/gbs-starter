@@ -1,5 +1,5 @@
 //color variables
-$c-brand  : brown;
+$c-brand  : crimson;
 $c-brand--d  : darken($c-brand, 2);
 
 $c-txt    : #333;
@@ -7,8 +7,7 @@ $c-gray   : #666;
 
 
 
-//fonts fariables
-
+//fonts variables
 $font-def : 'Lato', Arial, sans-serif;
 
 
@@ -18,11 +17,12 @@ $font-def : 'Lato', Arial, sans-serif;
 
 
 //extends
-
 %clearfix {
 	
-	&:before, &:after {
-		content: " "; display: table;
+	&:before, 
+	&:after {
+		content: " "; 
+		display: table;
 	}
 
 	&:after {
