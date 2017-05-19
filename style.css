@@ -2232,5 +2232,11 @@ ul {
       -ms-transform: translateY(-50%);
           transform: translateY(-50%); }
 
+.accordion .panel-heading {
+  background: crimson; }
+
+.accordion .panel-title {
+  color: #fff; }
+
 /* PAGES */
 /* homepage */
