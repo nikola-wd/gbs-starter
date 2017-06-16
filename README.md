@@ -35,25 +35,25 @@ and minimize style.css file to be used in production.
 
 - SASS file organization
 
- - BASE
+ - BASE (all the default settings)
    - _base.scss (includes all the files in this dir)
-   -  _defaults.scss
-   -  _fonts.scss
-   -  _helpers.scss
-   -  _typography.scss
-   -  _variables.scss
+   - _defaults.scss
+   - _fonts.scss
+   - _helpers.scss
+   - _typography.scss
+   - _variables.scss
    
- - LAYOUT
+ - LAYOUT (general layout elements of the page)
    - _footer.scss
    - _header.scss
    - _hero.scss
    - _layout.scss (includes all the files in this dir)		
    			
- - PAGES
-   -  _pages.scss (includes all the files in this dir)
-   -  _homepage.scss
+ - PAGES (meant for all the page specific css, that is not used somewhere else)
+   - _pages.scss (includes all the files in this dir)
+   - _homepage.scss
         
- - UI-ELEMENTS          
+ - UI-ELEMENTS (most of the bootstrap components + a support for responsive video embed)          
    - _accordion.scss         
    - _breadcrmbs.scss
    - _buttons.scss
