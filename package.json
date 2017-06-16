@@ -1,4 +1,7 @@
-{
+{ 
+  "name" : "Nikola Ivanov",
+  "email" : "nikola.ivanov.wd@gmail.com",
+  "url" : "http://nikolaivanovwd.com/",
   "devDependencies": {
     "browser-sync": "^2.18.8",
     "gulp": "^3.9.1",
