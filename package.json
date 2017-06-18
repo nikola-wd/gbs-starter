@@ -1,7 +1,26 @@
 { 
-  "name" : "Nikola Ivanov",
+  "name" : "gbs-starter",
+  "version": "1.0.0",
+  "description": "lightweight starter for rapid development of static HTML / CSS / JS websites or templates to be used with backend frameworks or CMSes.",
+
   "email" : "nikola.ivanov.wd@gmail.com",
   "url" : "http://nikolaivanovwd.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nikola-wd/gbs-starter.git" 
+  },
+  "keywords": [
+    "html",
+    "css",
+    "sass",
+    "gulp",
+    "starter",
+    "boilerplate",
+    "frontend"
+  ],
+  "author": "Nikola Ivanov",
+  "license": "MIT",
+  "homepage": "https://github.com/nikola-wd/gbs-starter",
   "devDependencies": {
     "browser-sync": "^2.18.8",
     "gulp": "^3.9.1",

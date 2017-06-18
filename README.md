@@ -17,7 +17,7 @@ GBS - starter
 
 - Apart from having everything modularized, in most of the files there is starter code for bootstrap elements that you used to code over and over with each new project, and also a folder of Bootstrap components for quick reference and copy/pasting.
 
-- index.html page includes already includes everything that every new website needs: 
+- index.html page already includes everything that every new website (with typical layout) needs: 
 	- Header with navigation and a brand logo,
 	- Main area for content,
 	- Footer that is always at the bottom of the page, no matter how much content there is on page. (done with amazing css feature: Flexbox)
