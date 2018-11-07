@@ -2,11 +2,11 @@ GBS - starter
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
- - Is a lightweight starter for rapid development of static HTML / CSS / JS websites or templates to be used with backend frameworks or CMSes.
+ - Is a lightweight starter for rapid development of static HTML / CSS / JS (es6) websites or templates to be used with backend frameworks or CMSes.
 
 - It makes use of: 
 	G - Gulp
-	B - Bootstrap
+	B - Bootstrap (Native Bootstrap without jQuery dependency)
 	S - Sass
 
 - Sass(.scss) architecture is made following css naming and file organization naming conventions / methodologies such as:

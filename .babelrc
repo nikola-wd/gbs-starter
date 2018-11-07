@@ -1,0 +1,11 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": "cover 99.5%"
+      }
+    ]
+  ],
+  "sourceMaps": true
+}

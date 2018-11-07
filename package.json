@@ -1,18 +1,20 @@
-{ 
-  "name" : "gbs-starter",
+{
+  "name": "gbs-starter",
   "version": "1.0.0",
   "description": "lightweight starter for rapid development of static HTML / CSS / JS websites or templates to be used with backend frameworks or CMSes.",
-
-  "email" : "nikola.ivanov.wd@gmail.com",
-  "url" : "http://nikolaivanovwd.com/",
+  "email": "nikola.ivanov.wd@gmail.com",
+  "url": "http://nikolaivanovwd.com/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nikola-wd/gbs-starter.git" 
+    "url": "https://github.com/nikola-wd/gbs-starter.git"
   },
   "keywords": [
     "html",
     "css",
     "sass",
+    "es6",
+    "es2015",
+    "babel",
     "gulp",
     "starter",
     "boilerplate",
@@ -22,13 +24,22 @@
   "license": "MIT",
   "homepage": "https://github.com/nikola-wd/gbs-starter",
   "devDependencies": {
+    "@babel/core": "^7.1.5",
+    "@babel/preset-env": "^7.1.5",
+    "babelify": "^10.0.0",
     "browser-sync": "^2.18.8",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
+    "gulp-bro": "^1.0.3",
     "gulp-combine-mq": "^0.4.0",
+    "gulp-eslint": "^5.0.0",
     "gulp-notify": "^3.0.0",
     "gulp-plumber": "^1.1.0",
-    "gulp-sass": "^3.1.0"
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "uglify": "^0.1.5"
   },
   "dependencies": {}
 }
