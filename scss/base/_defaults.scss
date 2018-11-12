@@ -1,9 +1,4 @@
 /* base */
-::selection {
-  background-color: $c-gray;
-  color: #fff;
-}
-
 
 *,
 *::before,
@@ -27,7 +22,6 @@ button {
 }
 
 body {
-  font: 400 16px/1.42857143 $font-def;
   text-size-adjust: 100%;
   display: flex;
   flex-direction: column;
@@ -44,18 +38,4 @@ a,
 a:hover,
 a:focus {
   text-decoration: none;
-}
-
-
-ol, 
-ul {
-  list-style: none;
-}
-
-
-// define max container width here
-@media (min-width: 1200px) {
-  .container {
-    width: 1200px;
-  }
 }

@@ -1,0 +1,31 @@
+//extends
+%clearfix {
+
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+
+  &:after {
+    clear: both;
+  }
+}
+
+
+%flex {
+  display: flex;
+}
+
+
+%con-abs {
+  content: "";
+  position: absolute;
+}
+
+
+%bgncc {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

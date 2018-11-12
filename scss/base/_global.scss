@@ -1,0 +1,27 @@
+// Global 
+::selection {
+  background-color: $c-gray;
+  color: #fff;
+}
+
+body {
+  font: 400 16px/1.43 $font-def;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+// define max container width here
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+@media (min-width: 1366px) {
+  .container {
+    max-width: 1366px;
+  }
+}
